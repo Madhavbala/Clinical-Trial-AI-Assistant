@@ -24,8 +24,6 @@ This project provides an AI-powered tool for querying clinical trial data and ge
    cd clinical-trial-ai-assistant
 Install Dependencies:
 
-bash
-
 pip install -r requirements.txt
 Environment Variables:
 
@@ -40,8 +38,6 @@ The application connects to a MySQL database containing clinical trial data. Tab
 
 Running the Application
 Run the application using Streamlit:
-
-bash
 
 streamlit run app.py
 Usage
