@@ -22,35 +22,6 @@ This project provides an AI-powered tool for querying clinical trial data and ge
    ```bash
    git clone <repository_url>
    cd clinical-trial-ai-assistant
-
-Here is the README formatted for single-click copying:
-
-markdown
-Copy code
-# Clinical Trial AI Assistant
-
-This project provides an AI-powered tool for querying clinical trial data and generating insights. Leveraging SQL and AI-driven natural language processing, it enables users to explore clinical trial data, ask questions, and obtain meaningful responses.
-
-## Features
-
-- **Interactive Clinical Trial Querying**: Users can ask questions related to clinical trials, including demographics, outcomes, and trends, through natural language prompts.
-- **Database Connectivity**: Connect to a MySQL database containing clinical trial data for real-time querying.
-- **Data Viewing**: Users can view specific clinical trial tables and examine the underlying data.
-
-## Setup
-
-### Prerequisites
-
-- **Python 3.x**
-- **MySQL Database** with clinical trial data
-- **API Key for LLM**: Ensure you have a valid API key for Groq or similar generative language models.
-
-### Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository_url>
-   cd clinical-trial-ai-assistant
 Install Dependencies:
 
 bash
