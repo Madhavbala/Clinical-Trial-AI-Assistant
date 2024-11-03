@@ -31,7 +31,7 @@ Create a .env file with the following variables:
 makefile
 
 GROQ_API_KEY=<your_groq_api_key>
-Configure Database Connection: Provide MySQL connection details in the Streamlit sidebar when running the app.
+Configure Database Connection: When running the app, provide MySQL connection details in the Streamlit sidebar.
 
 Database Configuration
 The application connects to a MySQL database containing clinical trial data. Tables should include fields for trials, participants, treatments, and outcomes as defined in the sample SQL schema.
@@ -49,9 +49,9 @@ Prompts
 The assistant can respond to questions such as:
 
 "What are the demographics of patients enrolled in the clinical trial for [specific treatment]?"
-"How many patients were enrolled in the [specific trial name] and what was the criteria for enrollment?"
+"How many patients were enrolled in the [specific trial name] and what were the enrollment criteria?"
 "Can you summarize the primary and secondary outcomes of the clinical trial named [specific trial name]?"
-For a complete list of sample prompts, refer to the CLINICAL_TRIAL_PROMPTS variable in app.py.
+For a complete list of sample prompts, please take a look at the CLINICAL_TRIAL_PROMPTS variable in app.py.
 
 Troubleshooting
 Database Connection Errors: Ensure correct MySQL credentials and that the database server is running.
