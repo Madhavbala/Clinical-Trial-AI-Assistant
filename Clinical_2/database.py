@@ -8,11 +8,9 @@ def configure_db(mysql_host, mysql_port, mysql_user, mysql_password, mysql_db):
         st.stop()
     
     try:
-        # Create SQLAlchemy engine
         connection_string = f"mysql+mysqlconnector://{mysql_user}:{mysql_password}@{mysql_host}:{mysql_port}/{mysql_db}"
         engine = create_engine(connection_string)
         with engine.connect() as conn:
-            # Test the connection
             result = conn.execute(text("SELECT 1"))
             if result.fetchone() is None:
                 raise Exception("Failed to execute test query.")
