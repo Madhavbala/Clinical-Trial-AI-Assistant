@@ -11,14 +11,7 @@ from dotenv import load_dotenv
 import urllib.parse
 import pandas as pd
 from database import configure_db
-from prompts import (
-    CLINICAL_TRIAL_PROMPTS,
-    PROMPT_QUALITY_OF_LIFE,
-    PROMPT_PLACEBO_EFFECT,
-    PROMPT_ADVERSE_EVENT_DROPOUTS,
-    PROMPT_DEMOGRAPHIC_IMPACT,
-    PROMPT_DATA_INTEGRITY,
-)
+from prompts import (CLINICAL_TRIAL_PROMPTS, PROMPT_QUALITY_OF_LIFE, PROMPT_PLACEBO_EFFECT, PROMPT_ADVERSE_EVENT_DROPOUTS, PROMPT_DEMOGRAPHIC_IMPACT, PROMPT_DATA_INTEGRITY)
 
 load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
