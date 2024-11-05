@@ -4,7 +4,7 @@ This project provides an AI-powered tool for querying clinical trial data and ge
 
 ## Features
 
-- **Interactive Clinical Trial Querying**: Users can ask questions related to clinical trials, including demographics, outcomes, and trends, through natural language prompts.
+- **Interactive Clinical Trial Querying**: Users can ask questions related to clinical trials through natural language prompts.
 - **Database Connectivity**: Connect to a MySQL database containing clinical trial data for real-time querying.
 - **Data Viewing**: Users can view specific clinical trial tables and examine the underlying data.
 
@@ -12,16 +12,14 @@ This project provides an AI-powered tool for querying clinical trial data and ge
 
 ### Prerequisites
 
-- **Python 3.x**
+- **Python**
 - **MySQL Database** with clinical trial data
 - **API Key for LLM**: Ensure you have a valid API key for Groq or similar generative language models.
 
 ### Installation
 
 1. **Clone the Repository**:
-   ```bash
-   git clone <repository_url>
-   cd clinical-trial-ai-assistant
+
 Install Dependencies:
 
 pip install -r requirements.txt
@@ -56,5 +54,3 @@ For a complete list of sample prompts, please take a look at the CLINICAL_TRIAL_
 Troubleshooting
 Database Connection Errors: Ensure correct MySQL credentials and that the database server is running.
 API Errors: Verify that your API key is valid and that the environment variable is correctly set.
-License
-This project is licensed under the MIT License.
